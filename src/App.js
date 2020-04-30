@@ -21,7 +21,7 @@ class App extends Component {
         q: term,
         part: 'snippet',
         maxResults: 5,
-        key: 'YOUR_API_KEY',
+        key: 'AIzaSyDijWegwo__8XZ64UHATnQ1OxLHteP16m8',
       },
     });
 
