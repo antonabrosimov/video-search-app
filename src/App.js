@@ -21,7 +21,7 @@ class App extends Component {
         q: term,
         part: 'snippet',
         maxResults: 5,
-        key: 'YOUR_API_KEY',
+        key: process.env.REACT_APP_API_KEY,
       },
     });
 
